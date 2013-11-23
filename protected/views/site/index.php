@@ -8,13 +8,57 @@ $this->pageTitle=Yii::app()->name;
 
 <p>Congratulations! You have successfully created your Yii application.</p>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
+<p>
+            <h3 class="text-error">What are you waiting for?(End User)</h3>
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+			<?php
+			$this->beginWidget('zii.widgets.jui.CJuiDialog',array(
+			    'id'=>'signUpdialogEndUser',
+			    // additional javascript options for the dialog plugin
+			    'options'=>array(
+			        'title'=>'End User',
+			        'autoOpen'=>false,
+			    ),
+			));
+			
+				include("_endUser_signup_form.php");
+				
+			$this->endWidget('zii.widgets.jui.CJuiDialog');
+			?>            
+			
+            <?php
+			// the link that may open the dialog
+			echo CHtml::link('Sign Up!', '#', array(
+			   'onclick'=>'$("#signUpdialogEndUser").dialog("open"); return false;',
+			));			
+			?>
+</p>
+
+<p>
+            <h3 class="text-error">What are you waiting for?(Proprietor)</h3>
+
+			<?php
+			$this->beginWidget('zii.widgets.jui.CJuiDialog',array(
+			    'id'=>'signUpdialogProprietor',
+			    // additional javascript options for the dialog plugin
+			    'options'=>array(
+			        'title'=>'Proprietor',
+			        'autoOpen'=>false,
+			    ),
+			));
+			
+				include("_proprietor_signup_form.php");
+				
+			$this->endWidget('zii.widgets.jui.CJuiDialog');
+			?>            
+			
+            <?php
+			// the link that may open the dialog
+			echo CHtml::link('Sign Up!', '#', array(
+			   'onclick'=>'$("#signUpdialogProprietor").dialog("open"); return false;',
+			));			
+			?>
+
+</p>
+
+

@@ -27,11 +27,39 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
 	}
 
+
+	public function actionWelcome()
+	{
+	  Yii::app()->theme = 'classic';
+		$this->render('welcome');
+	}
+
+	public function actionSignup()
+	{
+		$model = new User;
+		$userObj = new UserClass;
+  
+    if(isset($_POST['submit']))
+    {
+        $model->attributes=$_POST['User'];
+		$email = $model->user_email;
+		$password = $model->user_pass;
+		$userObj->saveEndUser($email, $password);
+		
+		$this->redirect(array('welcome'));
+    }
+		
+		$this->render('signup',array('model'=>$model));
+	}
+
+	public function actionSignin()
+	{
+		$this->render('signin');
+	}
+		
 	/**
 	 * This is the action to handle external exceptions.
 	 */

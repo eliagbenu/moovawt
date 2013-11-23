@@ -2,7 +2,7 @@
 <?php require_once('tpl_header.php')?>
 
 <!-- Require the navigation -->
-<?php require_once('tpl_navigation.php')?>
+<?php //require_once('tpl_navigation.php')?>
 
 <!-- Include content pages -->
 <?php echo $content; ?>
