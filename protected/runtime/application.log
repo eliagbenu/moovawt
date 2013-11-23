@@ -1340,3 +1340,1880 @@ Stack trace:
 REQUEST_URI=/index.php/site/img/loading.gif
 HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
 ---
+2013/11/23 15:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:18:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:19:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:22:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_partial".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(11): CController->renderPartial('_partial', NULL, true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#6 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#7 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#12 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:28:02 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//reports/_reports".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//reports/_repo...', NULL, true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#6 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#7 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#12 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:29:06 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//promo/_managePromos".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(10): CController->renderPartial('//promo/_manage...', NULL, true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#6 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#7 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#12 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:39:45 [error] [php] include(Chtml.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(7): spl_autoload_call()
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#3 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#4 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#7 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#8 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#9 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): SiteController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#11 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (7)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (37)
+2013/11/23 15:41:20 [error] [php] Undefined variable: baseUrl (C:\xampp\htdocs\moovawt\protected\views\layouts\main.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(77): SiteController->renderFile()
+#1 C:\xampp\htdocs\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 C:\xampp\htdocs\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(301): SiteController->endWidget()
+#5 C:\xampp\htdocs\moovawt\protected\views\layouts\column1.php(6): SiteController->endContent()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(785): SiteController->renderFile()
+#9 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): SiteController->render()
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#11 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#13 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#14 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\layouts\main.php (8)
+in C:\xampp\htdocs\moovawt\protected\views\layouts\column1.php (6)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (37)
+2013/11/23 15:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:51:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 15:54:56 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbButton" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\framework\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(16): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#12 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#13 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#14 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:05:01 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbButton" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\framework\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(16): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#12 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#13 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#14 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/site/welcome
+---
+2013/11/23 16:07:50 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbButton" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\framework\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(16): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#12 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#13 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#14 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/site/welcome
+---
+2013/11/23 16:07:51 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbButton" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\framework\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(16): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#12 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#13 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#14 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/site/welcome
+---
+2013/11/23 16:09:21 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.TbButton" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\framework\YiiBase.php:343
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWidgetFactory.php(147): YiiBase::import('bootstrap.widge...', true)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(16): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#12 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#13 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#14 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php/site/welcome
+---
+2013/11/23 16:26:54 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_hangout_form".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form')
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#9 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#11 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#16 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/site/welcome
+---
+2013/11/23 16:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:27:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:27:18 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_hangout_form".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form')
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', NULL, true)
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', NULL, true)
+#9 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): CController->render('welcome')
+#10 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#11 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#16 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:29:06 [error] [php] Undefined variable: model (C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#9 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#10 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(37): SiteController->render()
+#11 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#12 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php (13)
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+2013/11/23 16:30:39 [error] [php] Undefined variable: model (C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#8 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#9 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#10 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#11 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#12 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#13 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#14 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php (13)
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+2013/11/23 16:31:22 [error] [php] Undefined variable: model (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 16:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:31:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:32:24 [error] [php] Undefined variable: model (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small1.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small1...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small1.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small3.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small3...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small3.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small4.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small4...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small4.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small2.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small2...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small2.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small5.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small5...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small5.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small1.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small1...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small1.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small3.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small3...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small3.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small5.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small5...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small5.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small2.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small2...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small2.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small4.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small4...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small4.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/loading.gif".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/loading.gif')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:36:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/close.png".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/close.png')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/catJoint
+---
+2013/11/23 16:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/login
+---
+2013/11/23 16:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/login
+---
+2013/11/23 16:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/index
+---
+2013/11/23 16:40:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/index
+---
+2013/11/23 16:41:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/index
+---
+2013/11/23 16:41:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/index
+---
+2013/11/23 16:41:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:41:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 16:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small1.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small1...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small1.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small2.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small2...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small2.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small4.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small4...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small4.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small3.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small3...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small3.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small5.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small5...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small5.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small4.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small4...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small4.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small1.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small1...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small1.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small5.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small5...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small5.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small2.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small2...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small2.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/blog/small3.jpg".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/blog/small3...')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/blog/small3.jpg
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/loading.gif".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/loading.gif')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:43:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/close.png".' in C:\xampp\htdocs\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('img/close.png')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints
+---
+2013/11/23 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/login
+---
+2013/11/23 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/login
+---
+2013/11/23 16:52:39 [error] [exception.CException] exception 'CException' with message 'Property "Joints.image" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('image')
+#1 C:\xampp\htdocs\framework\validators\CFileValidator.php(166): CActiveRecord->__get('image')
+#2 C:\xampp\htdocs\framework\validators\CValidator.php(214): CFileValidator->validateAttribute(Object(Joints), 'image')
+#3 C:\xampp\htdocs\framework\base\CModel.php(158): CValidator->validate(Object(Joints), NULL)
+#4 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php(74): CActiveRecord->save()
+#6 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): JointsController->actionCreate()
+#7 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\xampp\htdocs\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('create')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('joints/create')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/joints/create
+HTTP_REFERER=http://elislaptop.moovawt/index.php/joints/create
+---
+2013/11/23 16:53:05 [error] [php] include(joint_logo.php): failed to open stream: No such file or directory (C:\xampp\htdocs\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\framework\validators\CValidator.php(187): import()
+#1 C:\xampp\htdocs\framework\base\CModel.php(285): createValidator()
+#2 C:\xampp\htdocs\framework\base\CModel.php(259): Joints->createValidators()
+#3 C:\xampp\htdocs\framework\base\CModel.php(544): Joints->getValidators()
+#4 C:\xampp\htdocs\framework\base\CModel.php(466): Joints->getSafeAttributeNames()
+#5 C:\xampp\htdocs\framework\base\CComponent.php(153): Joints->setAttributes()
+#6 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(160): Joints->__set()
+#7 C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php(73): Joints->__set()
+#8 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): JointsController->actionCreate()
+#9 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): JointsController->runAction()
+#11 C:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#13 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): JointsController->filterAccessControl()
+#14 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#15 C:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#16 C:\xampp\htdocs\framework\web\CController.php(266): JointsController->runActionWithFilters()
+#17 C:\xampp\htdocs\framework\web\CWebApplication.php(283): JointsController->run()
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#19 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/joints/create
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (73)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 16:53:22 [warning] [application] Failed to set unsafe attribute "joint_logo" of "Joints".
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (73)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 16:55:53 [warning] [application] Failed to set unsafe attribute "joint_logo" of "Joints".
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (73)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 16:57:45 [warning] [application] Failed to set unsafe attribute "joint_logo" of "Joints".
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (73)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:08:12 [warning] [application] Failed to set unsafe attribute "joint_logo" of "Joints".
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (74)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:08:12 [error] [php] Undefined variable: joint_lati (C:\xampp\htdocs\moovawt\protected\components\JointsClass.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): JointsController->runAction()
+#2 C:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): JointsController->filterAccessControl()
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\CController.php(266): JointsController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(283): JointsController->run()
+#9 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/joints/create
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (23)
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (76)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:11:59 [error] [php] Undefined variable: joint_lati (C:\xampp\htdocs\moovawt\protected\components\JointsClass.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): JointsController->runAction()
+#2 C:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): JointsController->filterAccessControl()
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\CController.php(266): JointsController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(283): JointsController->run()
+#9 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/joints/create
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (23)
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (76)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:15:10 [error] [php] Undefined variable: joint_lati (C:\xampp\htdocs\moovawt\protected\components\JointsClass.php:23)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(134): JointsController->runAction()
+#2 C:\xampp\htdocs\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#4 C:\xampp\htdocs\framework\web\filters\CInlineFilter.php(59): JointsController->filterAccessControl()
+#5 C:\xampp\htdocs\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\xampp\htdocs\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\framework\web\CController.php(266): JointsController->runActionWithFilters()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(283): JointsController->run()
+#9 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/joints/create
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (23)
+in C:\xampp\htdocs\moovawt\protected\controllers\JointsController.php (76)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:17:18 [error] [php] Undefined variable: modelHangout (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 17:18:08 [error] [php] Undefined variable: modelHangout (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 17:18:21 [error] [php] Undefined variable: model (C:\xampp\htdocs\moovawt\protected\views\site\welcome.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:19:07 [error] [php] Undefined variable: modelHangout (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:38)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (38)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 17:19:43 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:22 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:26 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:27 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:27 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:20:35 [error] [exception.CException] exception 'CException' with message 'Property "Joints.user_email" is not defined.' in C:\xampp\htdocs\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\ar\CActiveRecord.php(144): CComponent->__get('user_email')
+#1 C:\xampp\htdocs\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('user_email')
+#2 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Joints), 'user_email')
+#3 C:\xampp\htdocs\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Joints), 'user_email', Array)
+#4 C:\xampp\htdocs\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Joints), 'user_email', Array)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\_hangout_form.php(17): CActiveForm->textField(Object(Joints), 'user_email')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('_hangout_form', Array)
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#14 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#18 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#19 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#20 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#21 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#22 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#24 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#25 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:21:43 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_form".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\joints\create.php(18): CController->renderPartial('_form', Array)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('//joints/create', Array)
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#15 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#20 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:22:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_form".' in C:\xampp\htdocs\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\moovawt\protected\views\joints\create.php(18): CController->renderPartial('_form', Array)
+#1 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#3 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php(38): CController->renderPartial('//joints/create', Array)
+#5 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): CController->renderPartial('//proprietor/_m...', Array, true)
+#9 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome', Array, true)
+#13 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): CController->render('welcome', Array)
+#14 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#15 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#19 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#20 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 17:36:02 [error] [php] Use of undefined constant auto - assumed 'auto' (C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php:35)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome.php(8): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(38): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\views\proprietor\_manageListings.php (35)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (38)
+2013/11/23 17:45:27 [error] [php] Creating default object from empty value (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (41)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:45:37 [error] [php] Creating default object from empty value (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (41)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:46:00 [error] [php] Creating default object from empty value (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (41)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:48:04 [error] [php] Creating default object from empty value (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (41)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:54:53 [error] [php] Creating default object from empty value (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (41)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:55:06 [error] [php] Undefined index: list_id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:57:23 [error] [php] Undefined index: joint_created (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 17:57:29 [error] [php] Undefined index: joint_created (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:00:03 [error] [php] Undefined variable: jObj (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:53)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (53)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:00:36 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_joint' doesn't exist. The SQL statement executed was: INSERT INTO `tbl_joint` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:00:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_joint' doesn't exist. The SQL statement executed was: INSERT INTO `tbl_joint` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joint', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:01:07 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_listing` FOREIGN KEY (`list_id`) REFERENCES `tbl_listing` (`list_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:01:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_listing` FOREIGN KEY (`list_id`) REFERENCES `tbl_listing` (`list_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:02:03 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:02:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:02:35 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:02:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:02:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:02:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:02:45 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:02:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', 'Guest', '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:03:30 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'joint_creator' cannot be null. The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:03:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'joint_creator' cannot be null. The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('www', 'www', 'eee', NULL, '2013-11-23 18:0...', 'eee', '2013-11-23 18:0...', 'eee', '12.444', '24.5555', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:03:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:07:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:08:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:08:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('qqoqo', 'qqq', 'aa', '16', '2013-11-23 18:0...', '124.444', '2013-11-23 18:0...', '124.444', '12.44', '12.44', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:10:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:11:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:12:01 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator).
+in C:\xampp\htdocs\moovawt\protected\components\JointsClass.php (20)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (56)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:12:01 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`moovawt`.`tbl_joints`, CONSTRAINT `FK_user` FOREIGN KEY (`joint_creator`) REFERENCES `tbl_joints` (`cat_id`)). The SQL statement executed was: INSERT INTO `tbl_joints` (`joint_name`, `joint_location`, `cat_id`, `joint_lati`, `joint_long`, `joint_creator`) VALUES (:joint_name, :joint_location, :cat_id, :joint_lati, :joint_long, :joint_creator)' in C:\xampp\htdocs\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(1178): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\moovawt\protected\components\JointsClass.php(20): CDbCommand->insert('tbl_joints', Array)
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(56): JointsClass->saveJoint('qqq', 'ww', 'eee', 18, '2013-11-23 18:1...', 'www', '2013-11-23 18:1...', 'www', '22.44', '12.33', '1')
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome')
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome')
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php/site/welcome
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome
+---
+2013/11/23 18:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:14:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcome_enduser".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('welcome_enduser')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome_enduser')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome_en...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/welcome_enduser
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/signup
+---
+2013/11/23 18:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/close....')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/close.png
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/23 18:22:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('img')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('img')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/img/loadin...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/img/loading.gif
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/23 18:23:11 [error] [php] Undefined variable: modelHangout (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:68)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome_enduser
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (68)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/23 18:23:25 [error] [php] Undefined variable: modelHangout (C:\xampp\htdocs\moovawt\protected\views\site\welcome.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(68): SiteController->render()
+#3 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#4 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome_enduser
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome.php (8)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (68)
+in C:\xampp\htdocs\moovawt\index.php (13)

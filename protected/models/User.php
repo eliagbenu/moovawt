@@ -61,7 +61,8 @@ public $user_role;
 		// will receive user inputs.
 		return array(
 			array('user_username, user_email, user_pass, user_reg_date, user_last_visit, user_role,
-			       user_pass_confirm', 'required'),
+			       user_pass_confirm,user_role', 'required'),
+			    
 			array('user_active, user_role', 'numerical', 'integerOnly'=>true),
 			array('user_username', 'length', 'max'=>20),
 			array('user_fullname', 'length', 'max'=>50),

@@ -34,7 +34,38 @@ class SiteController extends Controller
 	public function actionWelcome()
 	{
 	  Yii::app()->theme = 'classic';
-		$this->render('welcome');
+	  $modelHangout = new Joints;
+	  $jObj = new JointsClass;
+	  
+		if(isset($_POST['submit']))
+		{
+		// $model->attributes=$_POST['Joints'];
+		 
+		$joint_name = $_POST['Joints']['joint_name'];
+		$joint_location= $_POST['Joints']['joint_location'];
+		$joint_info= $_POST['Joints']['joint_info'] ;
+		$joint_creator = intval(Yii::app()->session['user_id']);
+        $joint_created= date('Y-m-d H:i:s');
+         $joint_operations= $_POST['Joints']['joint_operations'] ;
+         $joint_lati= $_POST['Joints']['joint_lati'] ;
+         $joint_long= $_POST['Joints'] ['joint_long'];		 		 
+         $cat_id= $_POST['Joints'] ['cat_id'];
+		 	
+			$jObj->saveJoint($joint_name,$joint_location,$joint_info,
+			                 $joint_creator,$joint_created,$joint_operations,$joint_created,
+							 $joint_operations,$joint_lati,$joint_long,$cat_id);
+		
+			
+		}
+	  
+		$this->render('welcome',array('modelHangout'=>$modelHangout));
+	}
+
+	public function actionWelcome_enduser()
+	{
+	  Yii::app()->theme = 'classic';
+
+		$this->render('welcome_enduser');
 	}
 
 	public function actionSignup()
@@ -47,9 +78,23 @@ class SiteController extends Controller
         $model->attributes=$_POST['User'];
 		$email = $model->user_email;
 		$password = $model->user_pass;
-		$userObj->saveEndUser($email, $password);
+		$user_role = $model->user_role;		
+		if(intval($user_role)==3){
+		$userObj->saveEndUser($email, $password);			
+		}else{
+		$userObj->saveProprietor($email, $password);				
+		}
 		
-		$this->redirect(array('welcome'));
+		$a = Yii::app()->db->createCommand("select * from tbl_user
+		                                   where user_email = '$email' ")->queryRow();
+		Yii::app()->session['user_id']=$a['user_id'];
+		
+		//echo Yii::app()->session['user_id'];Yii::app()->end();
+		if(intval($user_role)==3){
+		$this->redirect(array('welcome_enduser'));				
+		}else{	
+		$this->redirect(array('welcome'));			
+		}	
     }
 		
 		$this->render('signup',array('model'=>$model));
