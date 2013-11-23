@@ -8,21 +8,73 @@
     </div> <!-- /slider -->
     
     	<div class="row-fluid">
-            <div class="span9">
-                <blockquote>
-                  <h2>This is by far the best theme i have downloaded on webapplicationthemes.com. It was so easy to install and customize.</h2>
-                  <small>Someone famous guy<cite title="Source Title"> - Harvard Business Review</cite></small>
-                </blockquote>
+            <div class="span6">
+
+            <h3 class="text-error">What are you waiting for?(End User)</h3>
+
+			<?php
+			$this->beginWidget('zii.widgets.jui.CJuiDialog',array(
+			    'id'=>'signUpdialogEndUser',
+			    // additional javascript options for the dialog plugin
+			    'options'=>array(
+			        'title'=>'Dialog box 1',
+			        'autoOpen'=>false,
+			    ),
+			));
+			
+			    echo 'dialog content here';
+				
+				
+			
+			$this->endWidget('zii.widgets.jui.CJuiDialog');
+			?>            
+			
+            <!--
+            <button class="btn btn-large btn-warning" type="button">Sign Up!</button>
+            -->
+
+            <?php
+			// the link that may open the dialog
+			echo CHtml::link('Sign Up!', '#', array(
+			   'onclick'=>'$("#signUpdialogEndUser").dialog("open"); return false;',
+			));			
+			?>
+
             </div>
             
-            <div class="span3" style="text-align:center;">
+            <div class="span6" style="text-align:center;">
             
-            <h3 class="text-error">What are you waiting for?</h3>
-            
+            <h3 class="text-error">What are you waiting for?(Proprietor)</h3>
+
+			<?php
+			$this->beginWidget('zii.widgets.jui.CJuiDialog',array(
+			    'id'=>'signUpdialogProprietor',
+			    // additional javascript options for the dialog plugin
+			    'options'=>array(
+			        'title'=>'Dialog box 1',
+			        'autoOpen'=>false,
+			    ),
+			));
+			
+			    echo 'dialog content here';
+				
+				
+			
+			$this->endWidget('zii.widgets.jui.CJuiDialog');
+			?>            
+			
+            <!--
             <button class="btn btn-large btn-warning" type="button">Sign Up!</button>
-            
-            <p> <small>* terms and conditions apply</small></p>
-            
+            -->
+
+            <?php
+			// the link that may open the dialog
+			echo CHtml::link('Sign Up!', '#', array(
+			   'onclick'=>'$("#signUpdialogProprietor").dialog("open"); return false;',
+			));			
+			?>
+
+                        
             </div>
             
         </div>
@@ -74,70 +126,23 @@
 
             </ul>
         </div>
-        
-        <h3 class="header">Cool features
-        	<span class="header-line"></span> 
-        </h3>
-      	  
-        <div class="row-fluid">
-      	  
-          <div class="span4">
-          	<div class="showcase-small">
-                <div class="text-icon pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/html_5.png" width="32" height="32" alt="Font" />
-                </div>
-                <h4>Valid HTML5</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-            <div class="showcase-small">
-                <div class="text-icon pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/css_3.png" width="32" height="32" alt="Font" />
-                </div>
-                <h4>CSS3 Support</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-          </div>
-          <div class="span4">
-          	<div class="showcase-small">
-                <div class="text-icon pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/layouts_header_2.png" width="32" height="32" alt="Font" />
-                </div>
-                <h4>Multiple layouts</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-            <div class="showcase-small">
-                <div class="text-icon pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/cog_edit.png" width="32" height="32" alt="Font" />
-                </div>
-                <h4>Easy Customization</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-          </div>
-          
-          <div class="span4">
-          	<div class="showcase-small">
-                <div class="text-icon  pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/large_tiles.png" width="32" height="32" alt="Font" />
-                </div>
-                <h4>Multiple Colors</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-            <div class="showcase-small">
-                <div class="text-icon  pull-left">
-                <img src="<?php echo Yii::app()->theme->baseUrl;?>/img/icons/fatcow/ipad.png" width="32" height="32" alt="Ipad" /></div>
-                <h4>Responsive Layout</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          	</div>
-          </div>
-		
-      </div><!--/row-fluid-->
-      
-      
-      
-      
-      <h3 class="header">Our customers
+       
+     
+      <h3 class="header">Testimonials
       	<span class="header-line"></span>  
       </h3>
+ 
+       <div class="row-fluid">
+
+        <div class="span10 center">
+            <blockquote>sssssss</blockquote>
+        </div>
+   </div>
+
+      <h3 class="header">Popular hangouts
+      	<span class="header-line"></span>  
+      </h3>
+        
       <div class="row-fluid">
 
         <div class="span3 center">
