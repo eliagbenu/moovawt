@@ -15,6 +15,8 @@
 					'itemCssClass'=>'item-test',
                     'encodeLabel'=>false,
                     'items'=>array(
+
+/*
 						array('label'=>'Home <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our home page"), 
                         'items'=>array(
                             array('label'=>'Home 1 - Nivoslider', 'url'=>array('/site/index')),
@@ -24,6 +26,9 @@
 							array('label'=>'Home 5 - Video header', 'url'=>array('/site/page', 'view'=>'home5')),
 							array('label'=>'Home 6 - Without slider', 'url'=>array('/site/page', 'view'=>'home6')),
                         )),
+ */
+ 
+ /*                       
 						array('label'=>'Styles <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"6 styles"), 
                         'items'=>array(
                             array('label'=>'<span class="style" style="background-color:#0088CC;"></span> Style 1', 'url'=>"javascript:chooseStyle('none', 60)"),
@@ -33,17 +38,22 @@
 							array('label'=>'<span class="style" style="background-color:#b88006;"></span> Style 5', 'url'=>"javascript:chooseStyle('style5', 60)"),
 							array('label'=>'<span class="style" style="background-color:#f9630f;"></span> Style 6', 'url'=>"javascript:chooseStyle('style6', 60)"),
                         )),
-						
+*/
+
+/*						
 						array('label'=>'Features <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'columns'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"cool features"), 
                         'items'=>array(
                             array('label'=>'Columns', 'url'=>array('/site/page', 'view'=>'columns')),
 							array('label'=>'Pricing tables', 'url'=>array('/site/page', 'view'=>'pricing-tables')),
 							array('label'=>'UI Elements', 'url'=>array('/site/page', 'view'=>'elements')),
                         )),
-
+*/
+/*
                         array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>"what we are about"),),
-                       
-                        array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"member area")),
+ */                      
+                         array('label'=>'Home', 'url'=>array('/site/index'), 'visible'=>Yii::app()->user->isGuest),
+                        array('label'=>'About Us', 'url'=>array('/site/aboutUs'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Who Are We?")), 
+                        array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"Members Area")),
                         array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"member area")),
                     ),
                 )); ?>

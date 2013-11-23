@@ -1,5 +1,10 @@
+   
     <div class="slider-bootstrap"><!-- start slider -->
+	<!--
 	   	<iframe src="http://player.vimeo.com/video/7449107?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff&amp;autoplay=0" width="960" height="430" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	-->
+	<iframe width="853" height="480" src="//www.youtube.com/embed/bSCH2L_pNXk" frameborder="0" allowfullscreen></iframe>    
+    
     </div> <!-- /slider -->
     
     	<div class="row-fluid">

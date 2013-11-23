@@ -1,0 +1,54 @@
+2013/11/23 10:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aboutUs".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('aboutUs')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('aboutUs')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/aboutUs')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/aboutUs
+HTTP_REFERER=http://elislaptop.moovawt/index.php?r=site/login
+---
+2013/11/23 10:31:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aboutUs".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('aboutUs')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('aboutUs')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/aboutUs')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/aboutUs
+HTTP_REFERER=http://elislaptop.moovawt/index.php?r=site/login
+---
+2013/11/23 10:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aboutUs".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('aboutUs')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('aboutUs')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/aboutUs')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/aboutUs
+HTTP_REFERER=http://elislaptop.moovawt/index.php?r=site/aboutUs
+---
+2013/11/23 10:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "aboutUs".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('aboutUs')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('aboutUs')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/aboutUs')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/aboutUs
+HTTP_REFERER=http://elislaptop.moovawt/index.php?r=site/index
+---
+2013/11/23 10:39:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "home5".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('home5')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('home5')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/home5')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/home5
+---
