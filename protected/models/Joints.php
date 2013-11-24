@@ -27,6 +27,11 @@
  */
 class Joints extends CActiveRecord
 {
+	public $question_1;
+	public $question_2;
+	public $question_3;
+	public $question_4;
+	public $question_5;				
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -53,8 +58,9 @@ class Joints extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('joint_name, joint_location, joint_info, joint_creator, list_id, joint_created, joint_operations, cat_id', 'required'),
-			array('joint_logo','safe'),
+			array('joint_name, joint_location, joint_info, joint_creator, list_id, joint_created, joint_operations, cat_id
+			       ', 'required'),
+			array('joint_logo,question_1,question_2,question_3,question_4,question_5','safe'),
 			array('joint_creator, list_id, cat_id,joint_lati,joint_long', 'numerical', 'integerOnly'=>false),
 			array('joint_name', 'length', 'max'=>50),
 			array('joint_keywords, joint_logo, joint_lati, joint_long, joint_images, joint_operations', 'length', 'max'=>255),
@@ -102,6 +108,11 @@ class Joints extends CActiveRecord
 			'joint_long' => 'Joint Long',
 			'joint_images' => 'Joint Images',
 			'joint_operations' => 'Joint Operations',
+			'question_1'=>'Do/Did you like this joint',
+			'question_2'=>'Rate the customer service',			
+			'question_3'=>'Rate the food',						
+			'question_4'=>'Did you have value for money',		
+			'question_5'=>'Would you recommend this joint to family and friends',												
 			'cat_id' => 'Cat',
 		);
 	}

@@ -30,6 +30,13 @@ class SiteController extends Controller
 		$this->render('index');
 	}
 
+	public function actionViewListing()
+	{
+	  Yii::app()->theme = 'classic';
+		$id = $_GET['id'];
+		Yii::app()->session['view_this_listing'] = $id;
+		$this->render('viewListing',array('id'=>$id));
+	}
 
 	public function actionWelcome()
 	{
@@ -64,8 +71,17 @@ class SiteController extends Controller
 	public function actionWelcome_enduser()
 	{
 	  Yii::app()->theme = 'classic';
-
-		$this->render('welcome_enduser');
+	  $modelHangout = new Joints;
+	  	 
+		 if(isset($_POST['search']))
+		 {
+			$joint_name = $_POST['Joints']['joint_name'];
+			$this->render('_joints_search',array('joint_name'=>$joint_name));
+					 
+		 }else{
+		$this->render('welcome_enduser',array('modelHangout'=>$modelHangout));
+		 	
+		 }
 	}
 
 	public function actionSignup()
@@ -100,9 +116,68 @@ class SiteController extends Controller
 		$this->render('signup',array('model'=>$model));
 	}
 
+	public function actionRating()
+	{
+		$model = new Joints;
+		$jObj = new JointsClass;
+  
+    if(isset($_POST['submit']) && !empty($_POST['question_5']))
+    {
+      //  $model->attributes=$_POST['Joints'];
+		$question_1= $_POST['question_1'];
+		$question_2 = $_POST['question_2'];
+		$question_3 = $_POST['question_3'];
+		$question_4 = $_POST['question_4'];
+		$question_5 = $_POST['question_5'];
+		$id = Yii::app()->session['view_this_listing'];
+								
+		$jObj->rateJoint($question_1,$question_2,$question_3,$question_4,$question_5,$id);
+		
+		$this->redirect(array('ratingThanks'));		
+    }
+		
+		//$this->render('rating');
+		 Yii::app()->theme = 'classic';			
+		$this->redirect(array('welcome_enduser'));	
+	}
+	
+	public function actionRatingThanks()
+	{
+		 Yii::app()->theme = 'classic';		
+		$this->render('ratingThanks');
+	}
+		
 	public function actionSignin()
 	{
-		$this->render('signin');
+		$model = new User;
+		$userObj = new UserClass;
+  
+    if(isset($_POST['submit']))
+    {
+        $model->attributes=$_POST['User'];
+		$email = $model->user_email;
+		$password = $model->user_pass;
+		$user_role = $model->user_role;		
+		if(intval($user_role)==3){
+		//$userObj->saveEndUser($email, $password);			
+		}else{
+		//$userObj->saveProprietor($email, $password);				
+		}
+		
+		$a = Yii::app()->db->createCommand("select * from tbl_user
+		                                   where user_email = '$email' ")->queryRow();
+		Yii::app()->session['user_id']=$a['user_id'];
+		Yii::app()->session['user_role']= $user_role;
+		
+		//echo Yii::app()->session['user_id'];Yii::app()->end();
+		if(intval($user_role)==3){
+		$this->redirect(array('welcome_enduser'));				
+		}else{	
+		$this->redirect(array('welcome'));			
+		}	
+    }
+		
+
 	}
 		
 	/**

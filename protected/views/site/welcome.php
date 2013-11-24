@@ -1,6 +1,8 @@
-welcome
+<?php
+$this->pageTitle=Yii::app()->name . ' - Welcome';
+?>
 <p>
-	Start using moovawt right away!
+	<b>Start using Moovawt right away! &amp; have fun!</b>
 	
 <?php	
 	$this->widget('zii.widgets.jui.CJuiAccordion',array(
@@ -17,3 +19,5 @@ welcome
 
 ?>
 </p>
+
+

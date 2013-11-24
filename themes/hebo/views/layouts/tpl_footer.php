@@ -1,4 +1,4 @@
-<section id="bottom" class="">
+<section id="bottom" class="" style="background:#fff">
     <div class="container bottom"> 
     	<div class="row-fluid ">
             <div class="span3">
@@ -10,56 +10,16 @@
             </div><!-- /span3-->
             
             <div class="span3">
-            	<h5>Blog roll</h5>
-            	<ul class="list-blog-roll">
-                    <li>
-                    	<a href="#" title="Example blog article">Understanding CSS</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">40 Free icons</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Search engine optimisation</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 1</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 2</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 3</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">CSS3 IE hacks</a>	
-                    </li>
-                </ul>
             	
+	<div style="width:60px;height:50px;float:left;">
+		<iframe src="https://platform.twitter.com/widgets/tweet_button.html?url=http%3A%2F%2Fmoovawt.co%2F&amp;count=vertical&amp;text=Check%20out%20best%20places%20to%20hangout%20and%20food%20to%20eat%20via%20@moovawt" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:60px; height:65px;"></iframe>
+	</div>	
             </div><!-- /span3-->
             
             <div class="span3">
-            	<h5>Twitter feed</h5>
-            	<p>
-                    Cool CSS tutorial
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 1 hour ago</span>
-                </p>
-                <p>
-                    Everything to know about HTML5
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 7 hours ago</span>
-                </p>
-                <p>
-                    Learn PHP in 3 days
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 9 hours ago</span>
-                </p>
+           	<div style="width:60px;height:50px;float:left;">
+		<iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=tall&amp;hl=en-US&amp;origin=http%3A%2F%2Ftwitterforweb.com%2F&amp;url=https://plus.google.com/u/0/b/116136891923796199599/116136891923796199599/posts" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:60px; height:65px;"></iframe>
+			</div>
             </div><!-- /span3-->
             
             <div class="span3">
@@ -71,14 +31,7 @@
                     E: first.last@gmail.com<br/>
                 
                 </p>
-                <br>
-                <h5>Follow us</h5>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Themeforest</a></li>
                 
-                </ul>
             </div><!-- /span3-->
         </div><!-- /row-fluid -->
         </div><!-- /container-->
