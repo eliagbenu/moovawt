@@ -6,7 +6,7 @@ $this->pageTitle=Yii::app()->name . ' - Thanks';
 
 ?>
 
-<div class="success">
+<div class="flash-success">
 
 <?php 
  $id = Yii::app()->session['view_this_listing'];

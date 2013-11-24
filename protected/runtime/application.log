@@ -5921,3 +5921,1000 @@ Stack trace:
 REQUEST_URI=/index.php/site/img/loading.gif
 HTTP_REFERER=http://elislaptop.moovawt/index.php/site/rating
 ---
+2013/11/24 13:22:51 [error] [php] Undefined index: joint_id (C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php:40)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(36): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome_enduser
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (40)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (36)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 13:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 13:51:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 13:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 13:56:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 13:57:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:00:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:01:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:02:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:05:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:05:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:07:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:07:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 14:59:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:01:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:02:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:02:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:03:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:03:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:03:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:05:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:07:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:09:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:13:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:29:08 [error] [php] Undefined index: question_1 (C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(65): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome_enduser
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (36)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (65)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 15:31:34 [error] [php] Undefined index: joint_id (C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(65): SiteController->renderPartial()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\xampp\htdocs\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\xampp\htdocs\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): SiteController->render()
+#7 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#8 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/welcome_enduser
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (36)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (65)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 15:32:23 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_joint_ratings' doesn't exist. The SQL statement executed was: select * from tbl_joint_ratings where id =8 .
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (36)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (65)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 15:32:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_joint_ratings' doesn't exist. The SQL statement executed was: select * from tbl_joint_ratings where id =8 ' in C:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php(36): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(65): CController->renderPartial('_reviews')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome_enduser', Array, true)
+#10 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): CController->render('welcome_enduser', Array)
+#11 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#12 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome_enduser')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome_en...')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/site/welcome_enduser
+HTTP_REFERER=http://elislaptop.moovawt/
+---
+2013/11/24 15:32:44 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_listing_ratings' doesn't exist. The SQL statement executed was: select * from tbl_listing_ratings where id =8 .
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (36)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (65)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 15:32:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'moovawt.tbl_listing_ratings' doesn't exist. The SQL statement executed was: select * from tbl_listing_ratings where id =8 ' in C:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php(36): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(65): CController->renderPartial('_reviews')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome_enduser', Array, true)
+#10 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): CController->render('welcome_enduser', Array)
+#11 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#12 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome_enduser')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome_en...')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/site/welcome_enduser
+HTTP_REFERER=http://elislaptop.moovawt/
+---
+2013/11/24 15:32:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:34:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:34:38 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'joint_id' in 'where clause'. The SQL statement executed was: select * from tbl_listing_rating where joint_id =8 .
+in C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php (36)
+in C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php (65)
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (90)
+2013/11/24 15:34:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'joint_id' in 'where clause'. The SQL statement executed was: select * from tbl_listing_rating where joint_id =8 ' in C:\xampp\htdocs\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\xampp\htdocs\framework\db\CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\moovawt\protected\views\site\_reviews.php(36): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\moovawt\protected\views\site\welcome_enduser.php(65): CController->renderPartial('_reviews')
+#6 C:\xampp\htdocs\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\framework\web\CController.php(783): CController->renderPartial('welcome_enduser', Array, true)
+#10 C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php(90): CController->render('welcome_enduser', Array)
+#11 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(50): SiteController->actionWelcome_enduser()
+#12 C:\xampp\htdocs\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('welcome_enduser')
+#16 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/welcome_en...')
+#17 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/index.php/site/welcome_enduser
+HTTP_REFERER=http://elislaptop.moovawt/
+---
+2013/11/24 15:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:35:08 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 15:35:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/ratingThanks
+---
+2013/11/24 15:35:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:36:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:41:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:42:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:43:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:51:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:52:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:52:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:52:48 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 15:53:49 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 15:55:21 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 15:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/ratingThanks
+---
+2013/11/24 15:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/ratingThanks
+---
+2013/11/24 15:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 15:58:09 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:00:26 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:00:40 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:01:01 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:01:11 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:03:44 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:11:33 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:14:03 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:15:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:16:02 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:17:02 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:22:27 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:23:05 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:23:58 [error] [php] Undefined index: id (C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\moovawt\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/viewListing/css/bootstrap.icon-large.min.css
+in C:\xampp\htdocs\moovawt\protected\controllers\SiteController.php (36)
+in C:\xampp\htdocs\moovawt\index.php (13)
+2013/11/24 16:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:24:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---
+2013/11/24 16:25:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "css".' in C:\xampp\htdocs\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(271): CController->missingAction('css')
+#1 C:\xampp\htdocs\framework\web\CWebApplication.php(283): CController->run('css')
+#2 C:\xampp\htdocs\framework\web\CWebApplication.php(142): CWebApplication->runController('site/css/bootst...')
+#3 C:\xampp\htdocs\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\moovawt\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/css/bootstrap.icon-large.min.css
+HTTP_REFERER=http://elislaptop.moovawt/index.php/site/welcome_enduser
+---

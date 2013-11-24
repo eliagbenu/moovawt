@@ -34,19 +34,16 @@
 				</div>					
 			</div>
 
-			<div class='row-fluid'>
+			<div class='row-fluid' style='margin-bottom:20px;'>
 				<div class='span4'>
-					<!-- <i class='icon-glass icon-white icon-th-large'> </i>
-						-->	
+				<img src='../../img/food.png'>
 
 				</div>
 			<div class='span4'>
-				<!--	<i class='icon-qrcode icon-white icon-large'> </i>
-				-->
+				<img src='../../img/hangout.png'>
 				</div>	
 			<div class='span4'>
-				<!--	<i class='icon-music icon-white icon-large '> </i>
-				-->	
+				<img src='../../img/event.png'>
 				</div>					
 			</div>
 			

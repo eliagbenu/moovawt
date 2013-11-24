@@ -1,3 +1,4 @@
+
 <?php
 $sql = "select joint_id as id, joint_name, joint_keywords, 
 				 joint_info,  

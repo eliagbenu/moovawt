@@ -2,10 +2,9 @@
     <div class="container bottom"> 
     	<div class="row-fluid ">
             <div class="span3">
-            	<h5>About us</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            	<h3 style='font-weight: bold;color:#ff8c00;'>About us</h3>
+                <p>Moov Awt is your map to the city's hottest hangouts, food joints and events, all from one point.
+                	</p>
                 
             </div><!-- /span3-->
             
@@ -23,13 +22,11 @@
             </div><!-- /span3-->
             
             <div class="span3">
-            	<h5>Contact us</h5>
+           	<h3 style='font-weight: bold;color:#ff8c00;'>Contact us</h3>
                 <p>
-                    795 Folsom Ave, Suite 600<br/>
-                    San Francisco, CA 94107<br/>
-                    P: (123) 456-7890<br/>
-                    E: first.last@gmail.com<br/>
-                
+                    Twitter: @moovawt<br/>
+                    Facebook: moovawt<br/>
+                    G + : moovawt<br/> 
                 </p>
                 
             </div><!-- /span3-->
@@ -40,7 +37,7 @@
 <footer>
     <div class="footer">
         <div class="container">
-        	Copyright &copy; 2012. Designed by webapplicationthemes.com - High quality HTML Theme
+        	Copyright &copy; 2013. MoovAwt
         </div>
 	</div>
 </footer>

@@ -6,6 +6,7 @@
 	<meta name="language" content="en" />
 
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl;?>/css/bootstrap.min.css">
+  <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">  
 	<!-- blueprint CSS framework -->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/screen.css" media="screen, projection" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/print.css" media="print" />
@@ -25,7 +26,7 @@
 
 <div class="container" id="page">
 
-	<div id="header" style='background:#000'>
+	<div id="header" style='background:#000' style="z-index:-100">
 		<div id="logo"><?php
 						// echo CHtml::encode(Yii::app()->name); 
 						$img = CHtml::image(Yii::app()->request->baseUrl.'/images/logo.png');
@@ -35,12 +36,9 @@
 						echo CHtml::link($img,array('site/welcome_enduser'));							
 						}
 
-						?></div>
-						
+						?>
 
-
-	<div id="mainmenu">
-	<div style="float:right">
+	<div style="float:right;position: relative">
 		<div class="form">
 <?php echo CHtml::beginForm(); ?>
  
@@ -66,12 +64,19 @@ $this->widget('zii.widgets.jui.CJuiAutoComplete',array(
  
  
     <div class="row submit">
-        <?php echo CHtml::submitButton('Search',array('name'=>'search','style'=>'float:right')); ?>
+        <?php echo CHtml::submitButton('Search',array('name'=>'search','style'=>'float:right','class'=>'btn btn-warning')); ?>
     </div>
  
 <?php echo CHtml::endForm(); ?>
 </div><!-- form -->
-	</div>					
+	</div>								
+		</div>
+						
+
+
+	<div id="mainmenu">
+		
+			
 	</div><!-- header -->		
 		<?php
 		/*
@@ -98,9 +103,8 @@ $this->widget('zii.widgets.jui.CJuiAutoComplete',array(
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
+		Copyright &copy; <?php echo date('Y'); ?> by Moov Awt.<br/>
 		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
 	</div><!-- footer -->
 
 </div><!-- page -->

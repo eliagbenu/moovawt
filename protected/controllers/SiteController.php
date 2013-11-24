@@ -65,7 +65,15 @@ class SiteController extends Controller
 			
 		}
 	  
-		$this->render('welcome',array('modelHangout'=>$modelHangout));
+	  		 if(isset($_POST['search']))
+		 {
+			$joint_name = $_POST['Joints']['joint_name'];
+			$this->render('_joints_search',array('joint_name'=>$joint_name));
+					 
+		 }else{
+		$this->render('welcome',array('modelHangout'=>$modelHangout));		 	
+		 }
+
 	}
 
 	public function actionWelcome_enduser()

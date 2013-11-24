@@ -2,28 +2,31 @@
 $this->pageTitle=Yii::app()->name . ' - Listings';
 ?>
 <div style='min-hieght:200'>
-<?php
-$this->widget('ext.easymap.EasyMap', array(
-    'key' => 'AIzaSyDwKhmaAz0jOuEabXK4sUAjv-g7HzdfyIc', /*Insert your developer API key for google map*/
-    'id' => 'newmap', /*This is the id of the map wrapper div*/
-    'latitude' => '5.644429',
-    'longitude' => '-0.15156600000000253',
-    'maptype' => 'ROADMAP', /*ROADMAP, SATELITE, HYBRID, TERRAIN*/
-    'zoom' => '15',
-    'width' => '740',
-    'height' => '400',
-    'markertitle' => '', /*Title of the place marker*/
-));
-?>	
-
-
-</div>
 
 <?php
 $sql = "select *
                 from tbl_joints where joint_id= $id";
 $a = Yii::app()->db->createCommand($sql)->queryRow();
 ?>
+	
+<?php
+$this->widget('ext.easymap.EasyMap', array(
+    'key' => 'AIzaSyDwKhmaAz0jOuEabXK4sUAjv-g7HzdfyIc', /*Insert your developer API key for google map*/
+    'id' => 'newmap', /*This is the id of the map wrapper div*/
+    'latitude' => $a['joint_lati'],
+    'longitude' => $a['joint_long'],//'-0.15156600000000253',
+    'maptype' => 'ROADMAP', /*ROADMAP, SATELITE, HYBRID, TERRAIN*/
+    'zoom' => '15',
+    'width' => '740',
+    'height' => '400',
+    'markertitle' => $a['joint_name'], /*Title of the place marker*/
+));
+?>	
+
+
+
+</div>
+
 
 <h2><?php echo $a['joint_name']; ?></h2>
 
